@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.coming-soon {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+
+.day,
+.hour,
+.minute,
+.second {
+  padding: 1rem;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/images/©-luxigonPARIS-2024-TOUR-EIFFEL@PARC-OLYMPIQUE-jour-OLY.webp);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-size: 100% 100%;
+}
