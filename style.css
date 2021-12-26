@@ -7,7 +7,7 @@
 h2 {
   font-size: 4.5rem;
   font-weight: bold;
-  color: white;
+  color: red;
 }
 
 .coming-soon {
@@ -16,6 +16,25 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #f3ec78;
+  background-image: linear-gradient(
+    115deg,
+    #ca4246 24.666%,
+    #e16541 24.666%,
+    #e16541 29.333%,
+    #f18f43 29.333%,
+    #f18f43 40%,
+    #8b9862 40%,
+    #8b9862 60%,
+    #476098 60%,
+    #476098 71.333%,
+    #a7489b 71.333%
+  );
+  )background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .countdown {
@@ -40,4 +59,7 @@ h2 {
   background-repeat: no-repeat;
   object-fit: cover;
   background-size: 100% 100%;
+}
+
+.gradient-text {
 }
